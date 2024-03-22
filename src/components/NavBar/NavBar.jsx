@@ -16,7 +16,7 @@ const NavBar = () => {
     ];
 
     return (
-        <nav className="p-4 bg-sky-100 ">
+        <nav className="p-4 bg-sky-100 flex md:justify-center">
             <div onClick={() => setOpen(!open)} className="md:hidden text-2xl " >
                 {
                     open === true ? <MdClose /> : <MdMenuOpen />
